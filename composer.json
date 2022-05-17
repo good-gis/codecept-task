@@ -1,0 +1,21 @@
+{
+    "name": "ivan.glushkov/codecept",
+    "description": "Codeception tests for wisebits",
+    "type": "test-project",
+    "autoload": {
+        "psr-4": {
+            "Codecept\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Glushkov",
+            "email": "ivan.glushkov@yandex.ru"
+        }
+    ],
+    "require": {
+        "codeception/module-webdriver": "^2.0",
+        "codeception/codeception": "^4.1",
+        "codeception/module-asserts": "^1.0.0"
+    }
+}
